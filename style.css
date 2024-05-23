@@ -34,7 +34,21 @@ html,body{
 /* first frame ************************************************************************   */
 
 .frame1{
-          margin: 2vw;
+          /* border: 1px solid ; */
+ margin: 2vw;
+ padding: 5vw;
+ align-items: center;
+ /* display: flex; */
+ border-radius: 1vw;
+ background: hsla(277, 78%, 59%, 1);
+
+background: linear-gradient(90deg, hsla(277, 78%, 59%, 1) 0%, hsla(197, 85%, 51%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(277, 78%, 59%, 1) 0%, hsla(197, 85%, 51%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(277, 78%, 59%, 1) 0%, hsla(197, 85%, 51%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AA46E8", endColorstr="#19B0EC", GradientType=1 );
 }
 
 .frame1 > .heading > .one{
